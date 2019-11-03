@@ -84,24 +84,24 @@ public class Month {
         return getMonthName();
     }
 
-    public boolean equals(Month m) {
-        if (m.getMonthNumber() == getMonthNumber()) {
+    public boolean equals(Month number) {
+        if (number.getMonthNumber() == getMonthNumber()) {
             return true;
         } else {
             return false;
         }
     }
 
-    public boolean greaterThan(Month m) {
-        if (getMonthNumber() > m.getMonthNumber()) {
+    public boolean greaterThan(Month number) {
+        if (getMonthNumber() > number.getMonthNumber()) {
             return true;
         } else {
             return false;
         }
     }
 
-    public boolean lessThan(Month m) {
-        if (getMonthNumber() < m.getMonthNumber()) {
+    public boolean lessThan(Month number) {
+        if (getMonthNumber() < number.getMonthNumber()) {
             return true;
         } else {
             return false;
